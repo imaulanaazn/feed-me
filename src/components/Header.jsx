@@ -74,10 +74,14 @@ const Header = () => {
               </Link>
             </li>
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-              Menu
+              <Link to="/contact">
+              Contact
+              </Link>
             </li>
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+              <Link to="/about">
               About Us
+              </Link>
             </li>
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
               Service

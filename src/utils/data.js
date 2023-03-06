@@ -65,10 +65,37 @@ export const categories = [
     name: "Icecreams",
     urlParamName: "icecreams",
   },
-
   {
     id: 7,
-    name: "Soft Drinks",
+    name: "Drinks",
     urlParamName: "drinks",
   },
+  {
+    id: 8,
+    name: "Vegan Food",
+    urlParamName: "vegan",
+  },
+];
+
+export const dishes = [
+  {
+    id: 1,
+    name: "Chicken",
+    urlParamName: "chicken",
+  },
+  {
+    id: 2,
+    name: "Curry",
+    urlParamName: "curry",
+  },
+  {
+    id: 3,
+    name: "Rice",
+    urlParamName: "rice",
+  },
+  {
+    id: 4,
+    name: "Fish",
+    urlParamName: "fish",
+  }
 ];

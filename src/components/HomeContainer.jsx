@@ -24,17 +24,16 @@ const HomeContainer = () => {
         </div>
 
         <p className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">
-          The Fastest Delivery in
+          Delivering deliciousness
           <span className="text-orange-600 text-[3rem] lg:text-[5rem]">
-            Your City
+            to your doorstep.
           </span>
         </p>
 
         <p className="text-base text-textColor text-center md:text-left md:w-[80%]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima velit
-          eaque fugit distinctio est nam voluptatum architecto, porro iusto
-          deserunt recusandae ipsa minus eos sunt, dolores illo repellat facere
-          suscipit!
+        Our food delivery website brings the best flavors right to your doorstep. 
+        Whether you're in the mood for a cozy night in or entertaining guests, 
+        our wide selection of restaurants and cuisines are just a few clicks away
         </p>
 
         <button
