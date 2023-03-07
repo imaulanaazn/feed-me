@@ -1,5 +1,8 @@
 import React from 'react'
-import service1 from '../img/i1.png';
+import service1 from '../img/dine-in.jpg';
+import service2 from '../img/drive-thru.jpg';
+import service3 from '../img/delivery.jpg';
+import service4 from '../img/catering.jpg';
 export default function Services() {
   return (
     <main 
@@ -45,13 +48,13 @@ export default function Services() {
                     </p>
                 </div>
                 <div className='flex-1'>
-                    <img src={service1} alt="" className='w-96 mr-auto' />
+                    <img src={service2} alt="" className='w-96 mr-auto' />
                 </div>
             </div>
 
             <div className="service  mt-20 md:flex items-center justify-center gap-20">
                 <div className='flex-1'>
-                    <img src={service1} alt="" className='w-96 ml-auto' />
+                    <img src={service3} alt="" className='w-96 ml-auto' />
                 </div>
                 <div className="service__text flex-1 md:mt-0 mt-5">
                     <h1 className='text-headingColor text-2xl font-semibold mb-4'>Anda Lapar. Kami Antar.</h1>
@@ -74,7 +77,7 @@ export default function Services() {
                     </p>
                 </div>
                 <div className='flex-1'>
-                    <img src={service1} alt="" className='w-96 mr-auto' />
+                    <img src={service4} alt="" className='w-96 mr-auto' />
                 </div>
             </div>
         </section>

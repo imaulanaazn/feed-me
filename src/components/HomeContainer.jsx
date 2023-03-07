@@ -30,7 +30,7 @@ const HomeContainer = () => {
           </span>
         </h1>
 
-        <p className="text-base text-slate-500 text-center md:text-left md:w-[80%]">
+        <p className="text-base text-slate-800 text-center md:text-left md:w-[80%]">
         Our food delivery website brings the best flavors right to your doorstep. 
         Whether you're in the mood for a cozy night in or entertaining guests, 
         our wide selection of restaurants and cuisines are just a few clicks away
