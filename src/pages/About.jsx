@@ -91,22 +91,22 @@ const About = () => {
           <div className="how-its-made__flavor text-center md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 md:self-end">
             <img src={flavor1} alt="" className="w-28 mx-auto"/>
             <h1 className="font-semibold text-md mt-4 mb-2 text-headingColor">Corn Flour</h1>
-            <p className="max-w-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, suscipit!</p>
+            <p className="max-w-xs mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, suscipit!</p>
           </div>
           <div className="how-its-made__flavor text-center md:col-start-3 md:col-end-4 md:row-start-1 md:row-end-2 md:self-end">
             <img src={flavor2} alt="" className="w-28 mx-auto"/>
             <h1 className="font-semibold text-md mt-4 mb-2 text-headingColor">Soy Flakes</h1>
-            <p className="max-w-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
+            <p className="max-w-xs mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
           </div>
           <div className="how-its-made__flavor text-center md:col-start-2 md:col-end-3 md:row-start-2 md:row-end-3 md:self-end">
             <img src={flavor3} alt="" className="w-28 mx-auto"/>
             <h1 className="font-semibold text-md mt-4 mb-2 text-headingColor">Oat Flakes</h1>
-            <p className="max-w-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, harum.</p>
+            <p className="max-w-xs mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, harum.</p>
           </div>
           <div className="how-its-made__flavor text-center md:col-start-3 md:col-end-4 md:row-start-2 md:row-end-3 md:self-end">
             <img src={flavor4} alt="" className="w-28 mx-auto"/>
             <h1 className="font-semibold text-md mt-4 mb-2 text-headingColor">Olive Oil</h1>
-            <p className="max-w-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestiae.</p>
+            <p className="max-w-xs mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestiae.</p>
           </div>
       </section>
 
