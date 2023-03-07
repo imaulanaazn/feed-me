@@ -15,9 +15,7 @@ import { actionType } from "../context/reducer";
 const Header = () => {
   const firebaseAuth = getAuth(app);
   const provider = new GoogleAuthProvider();
-
   const [{ user, cartShow, cartItems }, dispatch] = useStateValue();
-
   const [isMenu, setIsMenu] = useState(false);
 
   const login = async () => {
@@ -84,7 +82,9 @@ const Header = () => {
               </Link>
             </li>
             <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
-              Service
+              <Link to="/services">
+              Services
+              </Link>
             </li>
           </motion.ul>
 

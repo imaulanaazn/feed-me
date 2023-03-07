@@ -10,9 +10,9 @@ const HomeContainer = () => {
       id="home"
     >
       <div className="py-2 flex-1 flex flex-col items-start justify-center gap-6">
-        <div className="flex items-center gap-2 justify-center bg-orange-100 px-4 py-1 rounded-full">
-          <p className="text-base text-orange-500 font-semibold">
-            Bike Delivery
+        <div className="flex items-center gap-2 justify-center bg-rose-100 px-4 py-2 rounded-full">
+          <p className="text-base text-rose-500 font-semibold">
+            More than Faster
           </p>
           <div className="w-8 h-8 bg-white rounded-full overflow-hidden drop-shadow-xl">
             <img
@@ -23,14 +23,14 @@ const HomeContainer = () => {
           </div>
         </div>
 
-        <p className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">
-          Delivering deliciousness
-          <span className="text-orange-600 text-[3rem] lg:text-[5rem]">
+        <h1 className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor leading-tight">
+          Delivering deliciousness <br />
+          <span className="text-rose-600 text-[3rem] lg:text-[5rem]">
             to your doorstep.
           </span>
-        </p>
+        </h1>
 
-        <p className="text-base text-textColor text-center md:text-left md:w-[80%]">
+        <p className="text-base text-slate-500 text-center md:text-left md:w-[80%]">
         Our food delivery website brings the best flavors right to your doorstep. 
         Whether you're in the mood for a cozy night in or entertaining guests, 
         our wide selection of restaurants and cuisines are just a few clicks away
@@ -38,7 +38,7 @@ const HomeContainer = () => {
 
         <button
           type="button"
-          className="bg-gradient-to-br from-orange-400 to-orange-500 w-full md:w-auto px-4 py-2  rounded-lg hover:shadow-lg transition-all ease-in-out duration-100"
+          className="bg-rose-500 hover:bg-rose-400 text-white w-full md:w-auto px-7 py-3 rounded-full hover:shadow-lg transition-all ease-in-out duration-100"
         >
           Order Now
         </button>

@@ -7,6 +7,7 @@ import { getAllFoodItems } from "./utils/firebaseFunctions";
 import { actionType } from "./context/reducer";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Services from "./pages/Services";
 
 const App = () => {
   const [{ foodItems }, dispatch] = useStateValue();
@@ -35,6 +36,7 @@ const App = () => {
             <Route path="/createItem" element={<CreateContainer />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
           </Routes>
         </main>
       </div>
