@@ -15,7 +15,7 @@ const About = () => {
       <section className="jumbortron-container w-full">
         <div className="w-full flex items-center justify-center md:flex-row flex-col">
           <div className="flex-1 flex justify-end md:block hidden">
-            <h1 className="lg:text-7xl md:text-4xl font-bold uppercase tracking-wider -rotate-180" style={{writingMode:"vertical-rl"}}>
+            <h1 className="lg:text-7xl md:text-4xl font-bold uppercase tracking-wider -rotate-180 text-headingColor" style={{writingMode:"vertical-rl"}}>
               Delicious <br />
               Food
             </h1>
@@ -37,7 +37,7 @@ const About = () => {
       </section>
 
       <section className="about-us mt-24">
-        <h1 className="about-us__title text-center font-semibold text-3xl">About Us</h1>
+        <h1 className="about-us__title text-center font-semibold text-3xl text-headingColor">About Us</h1>
         <p className="about-us__subtitle text-center max-w-lg mx-auto text-slate-800 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
           Unde, dolor tempore! Illum sunt eius unde 
           harum
@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <img src={mainImg} alt="" className="w-72" />
             <div className="text-grup fresh">
-              <h1 className="font-semibold text-xl">FRESH</h1>
+              <h1 className="font-semibold text-xl text-headingColor">FRESH</h1>
               <p className="max-w-xs">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               </p>
@@ -65,7 +65,7 @@ const About = () => {
           </div>
 
           <div className="about-us__row3 text-grup natural w-max mx-auto mt-10">
-              <h1 className="font-semibold text-xl">NATURAL</h1>
+              <h1 className="font-semibold text-xl text-headingColor">NATURAL</h1>
               <p className="max-w-xs">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                  Accusantium ipsa accusamus tempora
               </p>
@@ -75,7 +75,7 @@ const About = () => {
 
       <section className="how-its-made grid md:grid-rows-2 md:grid-cols-3 grid-rows-5 grid-cols-1 md:gap-12 gap-6 mt-24 items-center">
         <div className="how-its-made__text md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-3">
-          <h1 className="font-medium text-4xl">How it's made?</h1>
+          <h1 className="font-medium text-4xl text-headingColor">How it's made?</h1>
           <p className="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
             Tempora soluta nostrum eveniet ipsa, 
             repellendus reprehenderit tenetur 
@@ -86,22 +86,22 @@ const About = () => {
 
           <div className="how-its-made__flavor text-center md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 md:self-end">
             <img src={flavor1} alt="" className="w-28 mx-auto"/>
-            <h1 className="font-semibold text-md mt-4 mb-2">Corn Flour</h1>
+            <h1 className="font-semibold text-md mt-4 mb-2 text-headingColor">Corn Flour</h1>
             <p className="max-w-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, suscipit!</p>
           </div>
           <div className="how-its-made__flavor text-center md:col-start-3 md:col-end-4 md:row-start-1 md:row-end-2 md:self-end">
             <img src={flavor2} alt="" className="w-28 mx-auto"/>
-            <h1 className="font-semibold text-md mt-4 mb-2">Soy Flakes</h1>
+            <h1 className="font-semibold text-md mt-4 mb-2 text-headingColor">Soy Flakes</h1>
             <p className="max-w-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
           </div>
           <div className="how-its-made__flavor text-center md:col-start-2 md:col-end-3 md:row-start-2 md:row-end-3 md:self-end">
             <img src={flavor3} alt="" className="w-28 mx-auto"/>
-            <h1 className="font-semibold text-md mt-4 mb-2">Oat Flakes</h1>
+            <h1 className="font-semibold text-md mt-4 mb-2 text-headingColor">Oat Flakes</h1>
             <p className="max-w-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, harum.</p>
           </div>
           <div className="how-its-made__flavor text-center md:col-start-3 md:col-end-4 md:row-start-2 md:row-end-3 md:self-end">
             <img src={flavor4} alt="" className="w-28 mx-auto"/>
-            <h1 className="font-semibold text-md mt-4 mb-2">Olive Oil</h1>
+            <h1 className="font-semibold text-md mt-4 mb-2 text-headingColor">Olive Oil</h1>
             <p className="max-w-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestiae.</p>
           </div>
       </section>
@@ -111,7 +111,7 @@ const About = () => {
           <img src={cheff1} alt="" className="w-40 md:ml-auto mx-auto"/>
         </div>
         <div className="best-chef__text flex-1 md:mt-0 mt-10">
-          <h1 className="font-medium text-4xl">Best Chef in Field</h1>
+          <h1 className="font-medium text-4xl text-headingColor">Best Chef in Field</h1>
           <p className="max-w-sm my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
              Quasi perspiciatis enim esse sapiente minus hic. 
              Est corporis beatae reiciendis earum.
@@ -122,7 +122,7 @@ const About = () => {
 
       <section className="discover-goodness flex md:flex-row flex-col-reverse justify-center md:gap-40 text-right mt-28">
         <div className="discover-goodness__text flex-1 self-center  md:mt-0 mt-10">
-          <h1 className="font-medium text-4xl">Discover Goodness</h1>
+          <h1 className="font-medium text-4xl text-headingColor">Discover Goodness</h1>
             <p className="max-w-sm my-4 ml-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
               Provident consectetur nam animi minima cum mollitia 
               praesentium a eos officia voluptatem.

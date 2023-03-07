@@ -3,8 +3,8 @@ import React from 'react'
 export default function Contact() {
   return (
     <div className='contact__container'>
-        <h1 className='text-2xl md:mt-20 mt-10 font-semibold text-center'>Contact Us</h1>
-        <p className='text-center'>Any question or remarks? Just write us a message</p>
+        <h1 className='text-5xl md:mt-20 mt-10 font-semibold text-center text-headingColor'>Contact Us</h1>
+        <p className='text-center mt-4'>Any question or remarks? Just write us a message</p>
     <div className="h-auto w-full grid place-items-center bg-slate-100">
         <div className="mt-10 rounded-md shadow-md flex md:flex-row flex-col bg-white">
             {/* contact information form */}
