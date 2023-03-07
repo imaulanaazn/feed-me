@@ -1,7 +1,7 @@
 import I1 from "../img/i1.png";
 import F1 from "../img/f1.png";
-import C3 from "../img/c3.png";
-import Fi1 from "../img/fi1.png";
+import C1 from "../img/c1.png";
+import Fi5 from "../img/fi5.png";
 
 export const heroData = [
   {
@@ -23,14 +23,14 @@ export const heroData = [
     name: "Chicken Kebab",
     decp: "Mixed Kebab Plate",
     price: "8.25",
-    imageSrc: C3,
+    imageSrc: C1,
   },
   {
     id: 4,
     name: "Fish Kebab",
     decp: "Mixed Fish Kebab",
     price: "5.25",
-    imageSrc: Fi1,
+    imageSrc: Fi5,
   },
 ];
 

@@ -31,7 +31,7 @@ export default function Services() {
             <h1 className='md:text-4xl text-3xl font-bold text-center my-24 text-headingColor'>We Provide Various Services</h1>
             <div className="service  mt-10 md:flex items-center justify-center gap-20" data-aos="fade-up" data-aos-duration="2000">
                 <div className='flex-1'>
-                    <img src={service1} alt="" className='w-96 ml-auto' />
+                    <img src={service1} alt="" className='w-96 md:ml-auto mx-auto' />
                 </div>
                 <div className="service__text flex-1 md:mt-0 mt-5">
                     <h1 className='text-headingColor text-2xl font-semibold mb-4'>Dine in and Take out</h1>
@@ -60,7 +60,7 @@ export default function Services() {
 
             <div className="service  mt-20 md:flex items-center justify-center gap-20" data-aos="fade-up" data-aos-duration="2000">
                 <div className='flex-1'>
-                    <img src={service3} alt="" className='w-96 ml-auto' />
+                    <img src={service3} alt="" className='w-96 md:ml-auto mx-auto' />
                 </div>
                 <div className="service__text flex-1 md:mt-0 mt-5">
                     <h1 className='text-headingColor text-2xl font-semibold mb-4'>Anda Lapar. Kami Antar.</h1>
