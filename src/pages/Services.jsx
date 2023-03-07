@@ -1,9 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import service1 from '../img/dine-in.jpg';
 import service2 from '../img/drive-thru.jpg';
 import service3 from '../img/delivery.jpg';
 import service4 from '../img/catering.jpg';
+import AOS from "aos"
+
 export default function Services() {
+    useEffect(() => {
+        AOS.init();
+    }, [])
+    
   return (
     <main 
     className="">
@@ -23,7 +29,7 @@ export default function Services() {
 
         <section className='services mt-20'>
             <h1 className='md:text-4xl text-3xl font-bold text-center my-24 text-headingColor'>We Provide Various Services</h1>
-            <div className="service  mt-10 md:flex items-center justify-center gap-20">
+            <div className="service  mt-10 md:flex items-center justify-center gap-20" data-aos="fade-up" data-aos-duration="2000">
                 <div className='flex-1'>
                     <img src={service1} alt="" className='w-96 ml-auto' />
                 </div>
@@ -37,7 +43,7 @@ export default function Services() {
                 </div>
             </div>
 
-            <div className="service  mt-20 flex md:flex-row flex-col-reverse items-center justify-center md:gap-20">
+            <div className="service  mt-20 flex md:flex-row flex-col-reverse items-center justify-center md:gap-20" data-aos="fade-up" data-aos-duration="2000">
                 <div className="service__text flex-1 md:mt-0 mt-5">
                     <h1 className='text-headingColor text-2xl font-semibold text-right mb-4'>Popup Service</h1>
                     <p className='max-w-md ml-auto text-right'>
@@ -52,7 +58,7 @@ export default function Services() {
                 </div>
             </div>
 
-            <div className="service  mt-20 md:flex items-center justify-center gap-20">
+            <div className="service  mt-20 md:flex items-center justify-center gap-20" data-aos="fade-up" data-aos-duration="2000">
                 <div className='flex-1'>
                     <img src={service3} alt="" className='w-96 ml-auto' />
                 </div>
@@ -66,7 +72,7 @@ export default function Services() {
                 </div>
             </div>
 
-            <div className="service  mt-20 flex md:flex-row flex-col-reverse items-center justify-center gap-20">
+            <div className="service  mt-20 flex md:flex-row flex-col-reverse items-center justify-center gap-20" data-aos="fade-up" data-aos-duration="2000">
                 <div className="service__text flex-1 md:mt-0 mt-5">
                     <h1 className='text-headingColor text-2xl font-semibold text-right mb-4'>Catering</h1>
                     <p className='max-w-md ml-auto text-right'>
@@ -82,10 +88,11 @@ export default function Services() {
             </div>
         </section>
 
-        <section className="booth">
-            Ramaikan Event mu Dengan Booth atau food truck kami
-
-            button 
+        <section className="booth mt-24 flex flex-col items-center justify-center gap-5 h-[35rem] bg-[url('https://womanpreneur-community.com/blog/wp-content/uploads/2021/05/dcqrtsnkwplepzrkeugi.jpg')] bg-no-repeat bg-cover bg-center">
+            <p className='text-4xl text-white font-bold text-center bg-black py-2 px-4'>
+                Ramaikan Event mu Dengan Booth atau food truck kami
+            </p>
+            <button className="py-2 px-6 bg-black font-semibold text-white rounded-full border border-2 border-white">Visit now</button>
         </section>
 
     </main>

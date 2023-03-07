@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import mainImg from '../img/plate-of-food.png'
 import burger from '../img/burger.png'
 import meal from '../img/meal.png'
@@ -8,10 +8,14 @@ import flavor3 from '../img/f3.png'
 import flavor4 from '../img/f4.png'
 import cheff1 from '../img/cheff.png'
 import cheff2 from '../img/chef1.png'
+import AOS from "aos"
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+}, [])
   return (
-    <main>
+    <main className="pb-24">
       <section className="jumbortron-container w-full">
         <div className="w-full flex items-center justify-center md:flex-row flex-col">
           <div className="flex-1 flex justify-end md:block hidden">
@@ -44,14 +48,14 @@ const About = () => {
         </p>
         <div className="about-us__quality quality mt-20">
           <div className="about-us__row1 flex justify-center items-center gap-10 md:flex-row flex-col">
-            <div className="text-grup tasty md:self-end">
+            <div className="text-grup tasty md:self-end" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
               <h1 className="font-semibold text-xl">TASTY</h1>
               <p className="max-w-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                 Sed ratione
               </p>
             </div>
             <img src={mainImg} alt="" className="w-72" />
-            <div className="text-grup fresh">
+            <div className="text-grup fresh" data-aos="fade-up" data-aos-duration="2000">
               <h1 className="font-semibold text-xl text-headingColor">FRESH</h1>
               <p className="max-w-xs">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -64,7 +68,7 @@ const About = () => {
             <img src={meal} alt="" className="w-72"/>
           </div>
 
-          <div className="about-us__row3 text-grup natural w-max mx-auto mt-10">
+          <div className="about-us__row3 text-grup natural w-max mx-auto mt-10" data-aos="fade-up" data-aos-duration="2000">
               <h1 className="font-semibold text-xl text-headingColor">NATURAL</h1>
               <p className="max-w-xs">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                  Accusantium ipsa accusamus tempora
@@ -74,7 +78,7 @@ const About = () => {
       </section>
 
       <section className="how-its-made grid md:grid-rows-2 md:grid-cols-3 grid-rows-5 grid-cols-1 md:gap-12 gap-6 mt-24 items-center">
-        <div className="how-its-made__text md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-3">
+        <div className="how-its-made__text md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-3" data-aos="fade-up" data-aos-duration="2000">
           <h1 className="font-medium text-4xl text-headingColor">How it's made?</h1>
           <p className="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
             Tempora soluta nostrum eveniet ipsa, 
@@ -106,7 +110,7 @@ const About = () => {
           </div>
       </section>
 
-      <section className="best-chef md:flex justify-center mt-20 gap-28">
+      <section className="best-chef md:flex justify-center mt-20 gap-28" data-aos="fade-up" data-aos-duration="2000">
         <div className="flex-1">
           <img src={cheff1} alt="" className="w-40 md:ml-auto mx-auto"/>
         </div>
@@ -120,7 +124,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="discover-goodness flex md:flex-row flex-col-reverse justify-center md:gap-40 text-right mt-28">
+      <section className="discover-goodness flex md:flex-row flex-col-reverse justify-center md:gap-40 text-right mt-28" data-aos="fade-up" data-aos-duration="2000">
         <div className="discover-goodness__text flex-1 self-center  md:mt-0 mt-10">
           <h1 className="font-medium text-4xl text-headingColor">Discover Goodness</h1>
             <p className="max-w-sm my-4 ml-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
